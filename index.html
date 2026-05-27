@@ -23,22 +23,22 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet" />
 </head>
 
-<body>
+<body id="home">
 
   <!-- NAVBAR -->
   <header>
     <nav class="navbar">
       <div class="navbar-left">
         <!-- Replace logo.png with your own image file -->
-        <img src="logo.png" alt="Logo" />
+        <img src="taehs.png" alt="Logo" />
       </div>
 
       <ul class="navbar-right">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="cfus.html">CFUs</a></li>
-        <li><a href="labs.html">Labs</a></li>
-        <li><a href="contact.html">Contacts</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="https://stephanyz8.github.io/SZ_Junior_Fall_Portfolio/cfus.html">CFUs</a></li>
+        <li><a href="https://stephanyz8.github.io/SZ_Junior_Fall_Portfolio/index.html#entries">Entries</a></li>
+        <li><a href="#contacts">Contacts</a></li>
       </ul>
     </nav>
   </header>
@@ -51,82 +51,112 @@
       <div class="bio">
         <div class="bio-pic">
           <!-- Replace profile.jpg with your own image file -->
-          <img src="profile.jpg" alt="Your Photo" />
+          <img src="stephany.png" alt="Stephany's Photo" />
         </div>
 
         <div class="bio-text">
-          <h1>YOUR NAME</h1>
-          <h4>Student at YOUR SCHOOL</h4>
+          <h1>Stephany Zaraza</h1>
+          <h4>Student at Thomas A. Edison CTE High School</h4>
           <p>
-            Paste your portfolio purpose statement from your Curator Guide here.
+            An aspiring junior in the Programming and Prototyping program, looking to delve more into the innerworkings of coding languages such as HTML/CSS, javascript, python, etc.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- QUICK LINKS CARD (optional) -->
-    <section class="resource-card">
-      <h2>Links</h2>
-      <p>Add your links from the Curator Guide.</p>
+<div class="skill-images" id="contacts">
 
-      <div class="skill-images">
-        <!-- Old portfolio -->
-        <a href="PASTE-OLD-PORTFOLIO-LINK" target="_blank" rel="noopener">
-          <div class="picture">
-            <img class="link-pic" src="old_portfolio_icon.png" alt="Old Portfolio" />
-          </div>
-        </a>
+  <!-- Old Portfolio -->
+  <a href="https://stephanyz8.github.io/SZ_Junior_Fall_Portfolio/" target="_blank" class="link-item">
 
-        <!-- Email -->
-        <a href="mailto:YOUR_EMAIL" target="_blank" rel="noopener">
-          <div class="picture">
-            <img class="link-pic" src="email_icon.png" alt="Email" />
-          </div>
-        </a>
+    <img class="link-pic" src="icon1.jpg" alt="Old Portfolio" />
 
-        <!-- LinkedIn (or other) -->
-        <a href="PASTE-LINKEDIN-OR-OTHER" target="_blank" rel="noopener">
-          <div class="picture">
-            <img class="link-pic" src="linkedin_icon.png" alt="LinkedIn" />
-          </div>
-        </a>
-      </div>
+    <span>Old Portfolio</span>
+
+  </a>
+
+  <!-- Email -->
+  <a href="mailto:zast0325@gmail.com" class="link-item">
+
+    <img class="link-pic" src="icon2.png" alt="Email" />
+
+    <span>Email Me</span>
+
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/stephany-zaraza-a57a54369"
+     target="_blank"
+     class="link-item">
+
+    <img class="link-pic" src="icon3.png" alt="LinkedIn" />
+
+    <span>LinkedIn</span>
+
+  </a>
+
+</div>
     </section>
 
-    <!-- PROJECTS SECTION (repeatable blocks) -->
-    <section class="resource-card">
-      <h2>Featured Projects</h2>
-      <p>Each project includes an embed and a reflection from your Curator Guide.</p>
-    </section>
+<!-- FEATURED PROJECTS -->
+<section class="resource-card featured-header" id="projects">
 
+  <h2>✧ Featured Projects ✧</h2>
+
+  <p>
+    A collection of projects showcasing my growth in
+    web development, creativity, and programming skills.
+  </p>
+
+</section>
     <!-- PROJECT 1 -->
     <section class="resource-card">
+    
       <div class="project">
-        <iframe src="PASTE-PROJECT-LINK-1" title="Project 1"></iframe>
-
+    
+        <iframe src="https://py3.codeskulptor.org/?authuser=2#user311_ThbmzhBkPa7GZTF.py" title="Holiday Drawing"></iframe>
+    
         <div class="reflection">
-          <h3>Project Title 1</h3>
-          <p>
-            Paste your curated reflection for Project 1 here (3–5 sentences).
+    
+          <h3>Holiday Drawing</h3>
+    
+          <p class="project-desc">
+            I created a festive Christmas scene using Python and SimpleGUI. I built elements like a tree, Santa, animated lights, and a holiday banner. I used loops and lists to repeat shapes and animate the lights, which made the scene more dynamic. This project helped me understand coordinates and how to build structured drawings using code.
           </p>
-          <p><strong>Skills:</strong> HTML, CSS, Flexbox (edit based on your guide)</p>
+    
+          <p class="skills">
+            <strong>Skills:</strong> Python, SimpleGUI, Loops, Lists, Coordinate Systems
+          </p>
+    
         </div>
+    
       </div>
+    
     </section>
 
     <!-- PROJECT 2 -->
     <section class="resource-card">
+    
       <div class="project">
-        <iframe src="PASTE-PROJECT-LINK-2" title="Project 2"></iframe>
-
+    
+        <iframe src="https://py3.codeskulptor.org/#user310_yJBsvoxoumqh4bE.py" title="Arcade"></iframe>
+    
         <div class="reflection">
-          <h3>Project Title 2</h3>
-          <p>
-            Paste your curated reflection for Project 2 here (3–5 sentences).
+    
+          <h3>Arcade</h3>
+    
+          <p class="project-desc">
+            This project was focused on building multiple mini-games using Python. I used conditionals to control game logic and make the program respond to user input. I also added text and color to improve the visual experience. Through trial and error, I learned how to debug and structure interactive programs.
           </p>
-          <p><strong>Skills:</strong> (list skills here)</p>
+    
+          <p class="skills">
+            <strong>Skills:</strong> Python, Conditionals, If/Else Statements, Loops, User Input
+          </p>
+    
         </div>
+    
       </div>
+    
     </section>
 
     <!-- Add more projects by copying PROJECT blocks -->
@@ -135,7 +165,7 @@
 
   <!-- FOOTER -->
   <footer class="resource-card">
-    <p>© <span id="year"></span> YOUR NAME | Junior Fall Portfolio</p>
+    <p>© <span id="year"></span> Stephany Zaraza | Junior Fall Portfolio</p>
   </footer>
 
   <script>
